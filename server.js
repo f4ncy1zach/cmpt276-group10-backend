@@ -22,7 +22,7 @@ const headers = {
     'Origin': 'https://travel-guidance.app'
 };
 
-
+//Search the location's locationID
 app.get('/api/location/search', async (req, res) => {
     try {
         const { searchQuery, category, country } = req.query;
@@ -44,7 +44,7 @@ app.get('/api/location/search', async (req, res) => {
     }
 });
 
-
+//Seach location's detail, like name, phone number, and feature by its locationID
 app.get('/api/location/:locationId/details', async (req, res) => {
     try {
         const { locationId } = req.params;
@@ -64,7 +64,7 @@ app.get('/api/location/:locationId/details', async (req, res) => {
     }
 });
 
-
+//Search location's photo by its locationID
 app.get('/api/location/:locationId/photos', async (req, res) => {
     try {
         const { locationId } = req.params;
