@@ -1,7 +1,10 @@
-First step:
+**First step:
     npm install
-Second step:
+
+**Second step:
     npm run dev
-Third step:
-    DON'T CLOSE THIS TERMINAL!!!
+
+
+**Third step:
+    *DON'T CLOSE THIS TERMINAL!!!*
     go to frontend part, and in another terminal: npm run dev
